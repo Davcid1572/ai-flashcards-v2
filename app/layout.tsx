@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import { Analytics } from "@vercel/analytics/next";
 
 export const metadata: Metadata = {
   title: "AI Flashcard Generator",
@@ -13,7 +14,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="antialiased bg-gray-900">{children}</body>
+      <body className="antialiased bg-gray-900">
+        {children}
+        <Analytics />
+      </body>
     </html>
   );
 }
