@@ -1,5 +1,5 @@
 import groq from "@/lib/groq";
-import { GenerateRequest, GenerateResponse } from "@/types/flashcard";
+import { GenerateRequest, GenerateResponse } from "@/types/flashcarrd";
 
 function getPrompt(text: string): string {
   return `You are a flashcard generator. Analyze the following text and generate between 5 and 10 flashcards.

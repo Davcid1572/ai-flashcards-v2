@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Flashcard } from "@/types/flashcard";
+import { Flashcard } from "@/types/flashcarrd";
 
 interface FlashCardProps {
   card: Flashcard;

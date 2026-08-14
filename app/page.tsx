@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Flashcard } from "@/types/flashcard";
+import { Flashcard } from "@/types/flashcarrd";
 import TextInput from "@/components/TextInput";
 import FlashCardDeck from "@/components/FlashCardDeck";
 
