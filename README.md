@@ -6,7 +6,7 @@ structured JSON output from large language models.
 
 ## Live Demo
 
-[your-vercel-url.vercel.app](https://your-vercel-url.vercel.app)
+[Live-demo](https://ai-flashcards-v2-steel.vercel.app/)
 
 ## Features
 
@@ -36,7 +36,7 @@ before being mapped to UI components.
 ## Running Locally
 
 1. Clone the repo
-   git clone https://github.com/YOURUSERNAME/ai-flashcards.git
+   git clone https://github.com/Davcid1572/ai-flashcards-v2
 
 2. Install dependencies
    npm install
